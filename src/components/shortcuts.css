@@ -1,0 +1,55 @@
+.shortcuts {
+	display: flex;
+}
+
+.shortcuts ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-row-gap: 4px;
+}
+
+.shortcuts dl {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 8px;
+	grid-row-gap: 8px;
+}
+
+.shortcuts dl,
+.shortcuts dd {
+	margin: 0;
+}
+
+.shortcuts dt {
+	margin-bottom: 8px;
+	text-align: left;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.shortcuts dd {
+	text-align: right;
+}
+
+.shortcuts span,
+.shortcuts kbd {
+	background: #E0E0E0;
+	display: inline-flex;
+	padding: 4px 12px;
+	min-height: 1.5rem;
+	min-width: 1.5rem;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	border-radius: 4px;
+	color: black;
+	font-weight: 600;
+}
+
+.shortcuts span {
+	padding: 4px;
+}
